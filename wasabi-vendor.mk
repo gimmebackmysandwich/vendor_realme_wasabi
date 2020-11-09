@@ -73,7 +73,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/wasabi/proprietary/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/realme/wasabi/proprietary/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.trustonic.teeregistry@1.0.so \
     vendor/realme/wasabi/proprietary/priv-app/TeeService/lib/arm64/libTeeServiceJni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/TeeService/lib/arm64/libTeeServiceJni.so \
-	vendor/realme/wasabi/proprietary/etc/permissions/com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.mediatek.ims.xml
+	vendor/realme/wasabi/proprietary/etc/permissions/com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.mediatek.ims.xml \
+	
+	vendor/realme/wasabi/proprietary/lib64/libRSDriver_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libRSDriver_mtk.so \
+	vendor/realme/wasabi/proprietary/lib/libRSDriver_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libRSDriver_mtk.so 
 
 PRODUCT_PACKAGES += \
     SoterService \
